@@ -3,9 +3,9 @@
 
 function conectarBD(){
 	$db_host="localhost";
-	$db_user="grupo30";
+	$db_user="root";
 	$db_pass="phYRkQ-stNR_sb00";
-	$db_base="grupo30";
+	$db_base="fundacion_bioquimica";
 	$cn = new PDO("mysql:dbname=$db_base;host=$db_host",
 	$db_user,$db_pass);
 	return $cn;
