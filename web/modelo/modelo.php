@@ -2,10 +2,10 @@
 
 
 function conectarBD(){
-	$db_host="localhost";
-	$db_user="root";
-	$db_pass="422404143";
-	$db_base="fundacion_bioquimica";
+	$db_host="us-cdbr-iron-east-05.cleardb.net";  
+	$db_user="b1af2a304e1c89"; 
+	$db_pass="82fa88df";
+	$db_base="heroku_628730ed0e1616a";    
 	$cn = new PDO("mysql:dbname=$db_base;host=$db_host",
 	$db_user,$db_pass);
 	return $cn;
