@@ -65,10 +65,13 @@
 
 
         </script>
-    <script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.load('visualization', '1', {packages: ['corechart']});
+      google.charts.load('visualization', {packages: ['corechart']});
     </script>
+
+
     <script type="text/javascript" >
       function drawVisualization() {
          var st=document.getElementById("stgraf").value;
@@ -102,7 +105,7 @@
     
     
     <script type="text/javascript">
-      google.load('visualization2', '1', {packages: ['corechart']});
+      google.charts.load('visualization2', {packages: ['corechart']});
     </script>
     <script type="text/javascript">
       function drawVisualization2() {
